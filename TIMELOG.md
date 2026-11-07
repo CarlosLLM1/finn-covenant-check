@@ -12,5 +12,5 @@ The commit history shows the same steps.
 | Sat 07.11. | Robust plan reader (other layouts, units, refusals), 6 test files | 0:25 |
 | Sat 07.11. | Acknowledgement, no double replies, email intake, plan with a breached covenant | 0:25 |
 | Sat 07.11. | README, handbook, note, GitHub | 0:40 |
-| | **Total (without Sunday)** | **6:00** |
+| | **Total ** | **6:00** |
 
