@@ -19,11 +19,11 @@ and replies in the same thread with the result, the calculation and the source o
 
 ## Setup (about 10 minutes)
 
-Requirements: Python 3.11+, a Gemini API key (aistudio.google.com), a Gmail account for Finn with an app password.
+Requirements: Python 3.12, a Gemini API key (aistudio.google.com), a Gmail account for Finn with an app password.
 
 ```powershell
-git clone <REPO-URL>
-cd my-finn
+git clone https://github.com/CarlosLLM1/finn-covenant-check.git
+cd finn-covenant-check
 python -m venv .venv
 .venv\Scripts\Activate.ps1            # macOS/Linux: source .venv/bin/activate
 python -m pip install -r requirements.txt
