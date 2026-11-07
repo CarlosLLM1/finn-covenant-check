@@ -121,4 +121,4 @@ email ──► mailer.py    read unread mail (IMAP), save the .xlsx, ignore own
 - The buffer ("how far may it get worse") changes one side of the ratio and keeps the other fixed.
 - Before a breach is sent to a bank, a human should approve it; a new plan layout's mapping should be checked once.
 
-More detail: `docs/HANDBOOK.md`. Assumptions and decisions: `NOTE.md`. Time spent: `TIMELOG.md`.
+More detail: Assumptions and decisions: `NOTE.md`. Time spent: `TIMELOG.md`.
