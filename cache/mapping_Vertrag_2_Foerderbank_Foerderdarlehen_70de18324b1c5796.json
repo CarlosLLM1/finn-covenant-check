@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Bilanz!D18",
+          "sign": 1
+        },
+        {
+          "id": "Bilanz!D19",
+          "sign": 1
+        },
+        {
+          "id": "Bilanz!D20",
+          "sign": 1
+        },
+        {
+          "id": "Bilanz!D21",
+          "sign": 1
+        }
+      ],
+      "reason": "Das Eigenkapital gem. § 266 Abs. 3 Buchstabe A HGB wird aus den Einzelpositionen Gezeichnetes Kapital (Bilanz!D18), Kapitalrücklage (Bilanz!D19), Gewinnrücklagen (Bilanz!D20) und Bilanzgewinn (Bilanz!D21) gebildet. Eingeforderte, noch nicht eingezahlte Einlagen sind im Plan nicht enthalten."
+    },
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "numerator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Bilanz!D23",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Sonderposten für Investitions- und Baukostenzuschüsse sind direkt in Zeile Bilanz!D23 ausgewiesen."
+    },
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Bilanz!D15",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Bilanzsumme (Summe der Aktiva) am Bilanzstichtag 31.12.2027 wird durch Zeile Bilanz!D15 abgebildet."
+    }
+  ]
+}

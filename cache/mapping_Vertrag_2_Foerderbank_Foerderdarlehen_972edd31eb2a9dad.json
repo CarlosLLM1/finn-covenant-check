@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Planbilanz!D20",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Zeile 'A. Eigenkapital gesamt' (Planbilanz!D20) umfasst das gesamte bilanzielle Eigenkapital gemäß § 266 Abs. 3 Buchstabe A HGB (Gezeichnetes Kapital, Kapitalrücklage, Gewinnrücklagen sowie Gewinnvortrag/Bilanzgewinn). Nicht nachrangige oder nachrangige Fremdkapitalpositionen sind darin nicht enthalten."
+    },
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "numerator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Planbilanz!D21",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Position 'B. Sonderposten für Investitionszuschüsse' (Planbilanz!D21) bildet den in der Bilanz gesondert ausgewiesenen Sonderposten für Investitionszuschüsse und Baukostenzuschüsse vollständig ab."
+    },
+    {
+      "covenant": "Wirtschaftliche Eigenkapitalquote",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Planbilanz!D13",
+          "sign": 1
+        }
+      ],
+      "reason": "Die 'Summe Aktiva' (Planbilanz!D13) entspricht der vertraglich definierten Bilanzsumme zum Bilanzstichtag gemäß HGB."
+    }
+  ]
+}

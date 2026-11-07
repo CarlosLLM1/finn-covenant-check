@@ -1,0 +1,65 @@
+{
+  "has_covenants": true,
+  "reason_if_none": "",
+  "covenants": [
+    {
+      "name": "Wirtschaftliche Eigenkapitalquote",
+      "numerator": [
+        {
+          "description": "Eigenkapital: das in der Bilanz der Kreditnehmerin gemäß § 266 Absatz 3 Buchstabe A HGB ausgewiesene Eigenkapital (gezeichnetes Kapital, Kapitalrücklage, Gewinnrücklagen, Gewinn-/Verlustvortrag und Jahresüberschuss/Jahresfehlbetrag bzw. Bilanzgewinn/Bilanzverlust), abzüglich eingeforderter, aber noch nicht eingezahlter Einlagen. Gesellschafterdarlehen, Rückstellungen und sonstige Fremdkapitalpositionen werden nicht zugerechnet, auch wenn für sie ein Rangrücktritt vereinbart ist. Zu Aufzinsung von Rückstellungen, freiwilligen Sondertilgungen und frei verfügbaren liquiden Mitteln schweigt der Vertrag.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Sonderposten: in der Bilanz gesondert ausgewiesene Sonderposten für Investitionszuschüsse und Baukostenzuschüsse (einschließlich Netzanschlusskostenbeiträgen), unabhängig von ihrer Bezeichnung im Einzelfall.",
+          "sign": 1,
+          "weight": 0.5
+        }
+      ],
+      "denominator": [
+        {
+          "description": "Bilanzsumme: Summe der Aktiva gemäß dem nach § 12 Absatz 1 lit. a) vorzulegenden festgestellten Jahresabschluss der Kreditnehmerin zum jeweiligen Bilanzstichtag (nach HGB). Zu Gesellschafterdarlehen/Rangrücktritt, Aufzinsung von Rückstellungen, freiwilligen Sondertilgungen, Sonderposten, Rückstellungen oder nur frei verfügbaren liquiden Mitteln im Rahmen der Bilanzsumme schweigt der Vertrag.",
+          "sign": 1,
+          "weight": 1.0
+        }
+      ],
+      "operator": ">=",
+      "limit": 27.5,
+      "unit": "percent",
+      "rounding_decimals": null,
+      "plan_basis_note": "Gemäß § 13 Absatz 3 nehmen die Parteien unverzüglich Gespräche über geeignete Maßnahmen auf, wenn die Vorschau auf Basis der Planbilanz ergibt, dass die Mindestquote zum Ende des Planjahres voraussichtlich unterschritten wird; eine solche Vorschau begründet für sich genommen keinen Kündigungsgrund.",
+      "sources": [
+        {
+          "page": 6,
+          "section": "§ 13 Absatz 1",
+          "quote": "Die Kreditnehmerin verpflichtet sich, während der gesamten Laufzeit dieses Vertrages zu jedem Bilanzstichtag eine Wirtschaftliche Eigenkapitalquote von mindestens 27,5 % einzuhalten."
+        },
+        {
+          "page": 1,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Bilanzsumme“ bezeichnet die Summe der Aktiva gemäß dem nach § 12 Absatz 1 lit. a) vorzulegenden festgestellten Jahresabschluss der Kreditnehmerin zum jeweiligen Bilanzstichtag."
+        },
+        {
+          "page": 1,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Eigenkapital“ bezeichnet das in der Bilanz der Kreditnehmerin gemäß § 266 Absatz 3 Buchstabe A HGB ausgewiesene Eigenkapital (gezeichnetes Kapital, Kapitalrücklage, Gewinnrücklagen, Gewinn-/Verlustvortrag und Jahresüberschuss/Jahresfehlbetrag bzw. Bilanzgewinn/Bilanzverlust), abzüglich eingeforderter, aber noch nicht eingezahlter Einlagen."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Sonderposten“ bezeichnet die in der Bilanz der Kreditnehmerin gesondert ausgewiesenen Sonderposten für Investitionszuschüsse und Baukostenzuschüsse (einschließlich Netzanschlusskostenbeiträgen), unabhängig von ihrer Bezeichnung im Einzelfall."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Wirtschaftliches Eigenkapital“ bezeichnet das Eigenkapital zuzüglich 50 % (fünfzig Prozent) der Sonderposten. Gesellschafterdarlehen, Rückstellungen und sonstige Fremdkapitalpositionen werden dem Wirtschaftlichen Eigenkapital nicht zugerechnet, auch wenn für sie ein Rangrücktritt vereinbart ist."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Wirtschaftliche Eigenkapitalquote“ bezeichnet das Verhältnis des Wirtschaftlichen Eigenkapitals zur Bilanzsumme zum jeweiligen Bilanzstichtag, ausgedrückt in Prozent."
+        }
+      ]
+    }
+  ]
+}

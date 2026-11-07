@@ -1,0 +1,85 @@
+{
+  "has_covenants": true,
+  "reason_if_none": "",
+  "covenants": [
+    {
+      "name": "Schuldendienstdeckungsgrad",
+      "numerator": [
+        {
+          "description": "Jahresüberschuss bzw. Jahresfehlbetrag der Kreditnehmerin gemäß Gewinn- und Verlustrechnung. Der Vertrag schweigt zu Sonderposten und frei verfügbaren liquiden Mitteln im Rahmen dieser Position.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Steuern vom Einkommen und vom Ertrag (Hinzurechnung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Zinsen und ähnliche Aufwendungen (Hinzurechnung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse an dieser Stelle.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Sonstige Zinsen und ähnliche Erträge (Kürzung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse.",
+          "sign": -1,
+          "weight": 1.0
+        },
+        {
+          "description": "Abschreibungen auf immaterielle Vermögensgegenstände des Anlagevermögens und Sachanlagen (Hinzurechnung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Außerordentliche Aufwendungen, soweit diese im Anhang des Jahresabschlusses gemäß § 285 Nr. 31 HGB gesondert angegeben sind (Hinzurechnung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Außerordentliche Erträge, soweit diese im Anhang des Jahresabschlusses gemäß § 285 Nr. 31 HGB gesondert angegeben sind (Kürzung im Rahmen des EBITDA). Der Vertrag schweigt hierzu bezüglich weiterer Ein- oder Ausschlüsse.",
+          "sign": -1,
+          "weight": 1.0
+        },
+        {
+          "description": "Ertragsteuern (in der Gewinn- und Verlustrechnung für den Berechnungszeitraum ausgewiesene Steuern vom Einkommen und vom Ertrag, die vom EBITDA abgezogen werden). Der Vertrag schweigt zu weiteren Ein- oder Ausschlüssen.",
+          "sign": -1,
+          "weight": 1.0
+        }
+      ],
+      "denominator": [
+        {
+          "description": "Zinsaufwand für Finanzverbindlichkeiten. Finanzverbindlichkeiten umfassen Verbindlichkeiten aus Darlehen/Krediten von Kreditinstituten, Schuldscheindarlehen, Anleihen, HGB-bilanzierten Finanzierungsleasingverträgen sowie Darlehen von Gesellschaftern und sonstigen Dritten (unabhängig davon, ob ein Rangrücktritt vereinbart ist). Verbindlichkeiten aus Lieferungen und Leistungen sowie Rückstellungen sind ausgeschlossen. Ausdrücklich nicht einzubeziehen sind Zinsaufwendungen aus der Aufzinsung von Rückstellungen (insbesondere Pensionsrückstellungen). Der Vertrag schweigt zu Sonderposten und frei verfügbaren liquiden Mitteln.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Im Berechnungszeitraum fällige planmäßige Tilgungsleistungen auf Finanzverbindlichkeiten (zur Definition von Finanzverbindlichkeiten siehe Zinsaufwand: Gesellschafterdarlehen unabhängig von Rangrücktritt eingeschlossen, Verbindlichkeiten LuL und Rückstellungen ausgeschlossen). Ausdrücklich nicht einzubeziehen sind freiwillige Sondertilgungen, vorzeitige Rückzahlungen sowie Rückzahlungen aus Refinanzierungen und Endfälligkeitsbeträge (Bullet-Zahlungen), soweit sie refinanziert werden.",
+          "sign": 1,
+          "weight": 1.0
+        }
+      ],
+      "operator": ">=",
+      "limit": 1.3,
+      "unit": "ratio",
+      "rounding_decimals": 2,
+      "plan_basis_note": "Für die Berechnung auf Planbasis sind die Planwerte des Wirtschaftsplans (Erfolgsplan und Finanzplan bzw. Darlehensspiegel) für das jeweilige Planjahr zugrunde zu legen (§ 12 Abs. 1 lit. c, Anlage 3 Abs. 7). Weist die Planberechnung einen Wert von unter 1,30 aus, stellt dies keinen Kündigungsgrund dar, sondern verpflichtet die Kreditnehmerin, der Bank innerhalb von 30 Tagen darzulegen, durch welche Maßnahmen sie die Einhaltung sicherstellen will (§ 13 Abs. 3).",
+      "sources": [
+        {
+          "page": 5,
+          "section": "§ 13 Absatz 1",
+          "quote": "Die Kreditnehmerin verpflichtet sich, für jedes Geschäftsjahr während der Laufzeit dieses Vertrages einen Schuldendienstdeckungsgrad von mindestens 1,30 einzuhalten."
+        },
+        {
+          "page": 5,
+          "section": "§ 13 Absatz 2",
+          "quote": "Der Schuldendienstdeckungsgrad wird nach Maßgabe der Anlage 3 jeweils für das abgelaufene Geschäftsjahr auf Grundlage des festgestellten Jahresabschlusses berechnet und durch die Kennzahlenbescheinigung nach § 12 Absatz 1 lit. b) nachgewiesen."
+        },
+        {
+          "page": 13,
+          "section": "Anlage 3 Absatz 6",
+          "quote": "Der Schuldendienstdeckungsgrad (Debt Service Coverage Ratio, DSCR) ist der Quotient aus a) EBITDA abzüglich Ertragsteuern (Zähler) und b) Schuldendienst (Nenner), jeweils für denselben Berechnungszeitraum. Der Schuldendienstdeckungsgrad ist auf zwei Nachkommastellen kaufmännisch zu runden."
+        }
+      ]
+    }
+  ]
+}

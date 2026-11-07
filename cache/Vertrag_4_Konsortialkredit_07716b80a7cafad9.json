@@ -1,0 +1,159 @@
+{
+  "has_covenants": true,
+  "reason_if_none": "",
+  "covenants": [
+    {
+      "name": "Eigenkapitalquote",
+      "numerator": [
+        {
+          "description": "Bilanzielles Eigenkapital der Kreditnehmerin gemäß § 266 Absatz 3 Buchstabe A HGB laut maßgeblichem Jahresabschluss. Sonderposten (insbesondere für Investitions- und Baukostenzuschüsse), Rückstellungen und Gesellschafterdarlehen sind ausdrücklich nicht Teil des Eigenkapitals, selbst wenn für ein Gesellschafterdarlehen ein Rangrücktritt vereinbart ist. Der Vertrag schweigt zu Aufzinsung von Rückstellungen, freiwilligen Sondertilgungen und frei verfügbaren liquiden Mitteln im Zusammenhang mit dem Eigenkapital.",
+          "sign": 1,
+          "weight": 1.0
+        }
+      ],
+      "denominator": [
+        {
+          "description": "Bilanzsumme (Summe der Aktiva der Kreditnehmerin gemäß dem maßgeblichen Jahresabschluss). Der Vertrag schweigt zu Gesellschafterdarlehen/Rangrücktritt, Aufzinsung von Rückstellungen, freiwilligen Sondertilgungen, Sonderposten, Rückstellungen und frei verfügbaren liquiden Mitteln im Zusammenhang mit der Bilanzsumme.",
+          "sign": 1,
+          "weight": 1.0
+        }
+      ],
+      "operator": ">=",
+      "limit": 30.0,
+      "unit": "percent",
+      "rounding_decimals": 1,
+      "plan_basis_note": "Die indikative Berechnung auf Planbasis nach § 13 Absatz 1 lit. c) dient der Frühwarnung. Eine Abweichung von den Grenzwerten auf Planbasis begründet keinen Kündigungsgrund, verpflichtet die Kreditnehmerin jedoch, auf Verlangen der Mehrheitskreditgeber ein Gespräch über Gegenmaßnahmen zu führen.",
+      "sources": [
+        {
+          "page": 6,
+          "section": "§ 14 Absatz 1 lit. a)",
+          "quote": "die Eigenkapitalquote zu jedem Prüfungsstichtag nicht weniger als 30,0 % beträgt;"
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Eigenkapitalquote“ bezeichnet das Verhältnis des Eigenkapitals zur Bilanzsumme zum jeweiligen Prüfungsstichtag, ausgedrückt in Prozent."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Eigenkapital“ bezeichnet das bilanzielle Eigenkapital der Kreditnehmerin gemäß § 266 Absatz 3 Buchstabe A HGB laut maßgeblichem Jahresabschluss."
+        },
+        {
+          "page": 1,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Bilanzsumme“ bezeichnet die Summe der Aktiva der Kreditnehmerin gemäß dem maßgeblichen Jahresabschluss."
+        },
+        {
+          "page": 7,
+          "section": "§ 14 Absatz 2",
+          "quote": "Die Eigenkapitalquote wird auf eine Nachkommastelle, der Dynamische Verschuldungsgrad auf zwei Nachkommastellen kaufmännisch gerundet."
+        }
+      ]
+    },
+    {
+      "name": "Dynamischer Verschuldungsgrad",
+      "numerator": [
+        {
+          "description": "Verbindlichkeiten aus aufgenommenen Darlehen und Krediten. Ausdrücklich ausgenommen sind Nachrangige Gesellschafterdarlehen (mit qualifiziertem Rangrücktritt § 39 Abs. 2 InsO). Der Vertrag schweigt zu Aufzinsung von Rückstellungen und freiwilligen Sondertilgungen.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Verbindlichkeiten aus Anleihen, Schuldverschreibungen, Schuldscheindarlehen und ähnlichen Instrumenten.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Verbindlichkeiten aus Finanzierungsleasingverträgen, soweit nach HGB als Verbindlichkeit bilanziert.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Verbindlichkeiten aus Verkäufen von Forderungen mit Rückgriff.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Verbindlichkeiten aus sonstigen Geschäften mit der wirtschaftlichen Wirkung einer Kreditaufnahme.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Liquide Mittel (Kassenbestand und Guthaben der Kreditnehmerin bei Kreditinstituten, soweit diese frei verfügbar und nicht verpfändet oder anderweitig mit Rechten Dritter belastet sind; ausdrücklich nur frei verfügbare liquide Mittel).",
+          "sign": -1,
+          "weight": 1.0
+        }
+      ],
+      "denominator": [
+        {
+          "description": "Jahresüberschuss bzw. Jahresfehlbetrag der Kreditnehmerin. Der Vertrag schweigt bezüglich Gesellschafterdarlehen, Rangrücktritt und freiwilligen Sondertilgungen im EBITDA.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Steuern vom Einkommen und vom Ertrag, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Zinsen und ähnliche Aufwendungen, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden. Der Vertrag schweigt ausdrücklich zur Aufzinsung von Rückstellungen.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Sonstige Zinsen und ähnliche Erträge, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden.",
+          "sign": -1,
+          "weight": 1.0
+        },
+        {
+          "description": "Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Außerordentliche Aufwendungen im Sinne von § 285 Nr. 31 HGB, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden.",
+          "sign": 1,
+          "weight": 1.0
+        },
+        {
+          "description": "Außerordentliche Erträge im Sinne von § 285 Nr. 31 HGB, soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden. Erträge aus der Auflösung von Sonderposten werden ausdrücklich nicht bereinigt.",
+          "sign": -1,
+          "weight": 1.0
+        }
+      ],
+      "operator": "<=",
+      "limit": 3.5,
+      "unit": "ratio",
+      "rounding_decimals": 2,
+      "plan_basis_note": "Die indikative Berechnung auf Planbasis nach § 13 Absatz 1 lit. c) dient der Frühwarnung. Eine Abweichung von den Grenzwerten auf Planbasis begründet keinen Kündigungsgrund, verpflichtet die Kreditnehmerin jedoch, auf Verlangen der Mehrheitskreditgeber ein Gespräch über Gegenmaßnahmen zu führen.",
+      "sources": [
+        {
+          "page": 7,
+          "section": "§ 14 Absatz 1 lit. b)",
+          "quote": "der Dynamische Verschuldungsgrad für jeden Prüfungszeitraum nicht mehr als 3,50 beträgt."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Dynamischer Verschuldungsgrad“ bezeichnet für einen Prüfungszeitraum das Verhältnis der Nettofinanzverbindlichkeiten zum letzten Tag des Prüfungszeitraums zum EBITDA für diesen Prüfungszeitraum."
+        },
+        {
+          "page": 2,
+          "section": "§ 1 Absatz 1",
+          "quote": "„EBITDA“ bezeichnet für einen Prüfungszeitraum den Jahresüberschuss bzw. Jahresfehlbetrag der Kreditnehmerin, (a) zuzüglich der Steuern vom Einkommen und vom Ertrag, (b) zuzüglich der Zinsen und ähnlichen Aufwendungen, (c) abzüglich der sonstigen Zinsen und ähnlichen Erträge, (d) zuzüglich der Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen und (e) zuzüglich bzw. abzüglich außerordentlicher Aufwendungen bzw. Erträge im Sinne von § 285 Nr. 31 HGB, jeweils soweit sie bei der Ermittlung des Jahresüberschusses bzw. Jahresfehlbetrages berücksichtigt wurden. Erträge aus der Auflösung von Sonderposten werden nicht bereinigt."
+        },
+        {
+          "page": 3,
+          "section": "§ 1 Absatz 1",
+          "quote": "„Nettofinanzverbindlichkeiten“ bezeichnet zu einem Stichtag die Summe der Finanzverbindlichkeiten abzüglich der Liquiden Mittel."
+        },
+        {
+          "page": 7,
+          "section": "§ 14 Absatz 2",
+          "quote": "Die Eigenkapitalquote wird auf eine Nachkommastelle, der Dynamische Verschuldungsgrad auf zwei Nachkommastellen kaufmännisch gerundet."
+        }
+      ]
+    }
+  ]
+}

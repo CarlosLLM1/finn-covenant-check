@@ -1,0 +1,4 @@
+python-dotenv
+openpyxl
+pdfplumber
+google-genai

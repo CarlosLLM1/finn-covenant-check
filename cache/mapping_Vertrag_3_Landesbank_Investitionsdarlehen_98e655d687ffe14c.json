@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E18",
+          "sign": 1
+        }
+      ],
+      "reason": "Jahresüberschuss gemäß Erfolgsplan Zeile 13."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E17",
+          "sign": 1
+        }
+      ],
+      "reason": "Steuern vom Einkommen und vom Ertrag gemäß Erfolgsplan Zeile 12 (Ertragsteuern)."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 2,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E14",
+          "sign": 1
+        }
+      ],
+      "reason": "Zinsen und ähnliche Aufwendungen gemäß Erfolgsplan Zeile 10 (Zinsaufwendungen)."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 3,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E13",
+          "sign": 1
+        }
+      ],
+      "reason": "Sonstige Zinsen und ähnliche Erträge gemäß Erfolgsplan Zeile 9 (Zinserträge)."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 4,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E10",
+          "sign": 1
+        }
+      ],
+      "reason": "Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen gemäß Erfolgsplan Zeile 6."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 5,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine außerordentlichen Aufwendungen gesondert ausgewiesen."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 6,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine außerordentlichen Erträge gesondert ausgewiesen."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 7,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E17",
+          "sign": 1
+        }
+      ],
+      "reason": "Ertragsteuern gemäß Erfolgsplan Zeile 12 für den Abzug vom EBITDA."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E14",
+          "sign": 1
+        },
+        {
+          "id": "Erfolgsplan!E15",
+          "sign": -1
+        }
+      ],
+      "reason": "Zinsaufwendungen aus Erfolgsplan Zeile 10 abzüglich der darin enthaltenen Aufzinsung von Pensionsrückstellungen aus der davon-Zeile 15."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "denominator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Darlehensspiegel!C11",
+          "sign": 1
+        }
+      ],
+      "reason": "Summe der planmäßigen Tilgungen aller Finanzverbindlichkeiten für das Planjahr 2027 aus dem Darlehensspiegel; Sondertilgungen sind nicht enthalten."
+    }
+  ]
+}

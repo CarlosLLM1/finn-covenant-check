@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "covenant": "Eigenkapitalquote",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Bilanz!D22",
+          "sign": 1
+        }
+      ],
+      "reason": "Bilanzielles Eigenkapital gemäß § 266 Abs. 3 Buchstabe A HGB entspricht der Bilanzposition 'A. Eigenkapital'."
+    },
+    {
+      "covenant": "Eigenkapitalquote",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Bilanz!D15",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Bilanzsumme entspricht der 'Summe Aktiva (Bilanzsumme)'."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Bilanz!D28",
+          "sign": 1
+        }
+      ],
+      "reason": "Verbindlichkeiten aus aufgenommenen Darlehen und Krediten (ohne nachrangige Gesellschafterdarlehen) entsprechen den Verbindlichkeiten gegenüber Kreditinstituten zum 31.12.2027."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 1,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine Verbindlichkeiten aus Anleihen, Schuldverschreibungen oder Schuldscheindarlehen ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 2,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine bilanzierten Verbindlichkeiten aus Finanzierungsleasingverträgen enthalten."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 3,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine Verbindlichkeiten aus Forderungsverkäufen mit Rückgriff ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 4,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine sonstigen Verbindlichkeiten mit wirtschaftlicher Kreditwirkung vorhanden."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 5,
+      "cells": [
+        {
+          "id": "Bilanz!D12",
+          "sign": 1
+        }
+      ],
+      "reason": "Liquide Mittel entsprechen der Bilanzposition 'Kassenbestand und Guthaben bei Kreditinstituten'."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "GuV!D18",
+          "sign": 1
+        }
+      ],
+      "reason": "Jahresüberschuss des Planjahres 2027 laut Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "GuV!D17",
+          "sign": 1
+        }
+      ],
+      "reason": "Steuern vom Einkommen und vom Ertrag des Planjahres 2027 laut Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 2,
+      "cells": [
+        {
+          "id": "GuV!D13",
+          "sign": 1
+        }
+      ],
+      "reason": "Zinsen und ähnliche Aufwendungen des Planjahres 2027. Da der Vertrag zur Aufzinsung von Rückstellungen schweigt, erfolgt kein Abzug der nachrichtlichen Aufzinsung."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 3,
+      "cells": [
+        {
+          "id": "GuV!D12",
+          "sign": 1
+        }
+      ],
+      "reason": "Sonstige Zinsen und ähnliche Erträge des Planjahres 2027 laut Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 4,
+      "cells": [
+        {
+          "id": "GuV!D9",
+          "sign": 1
+        }
+      ],
+      "reason": "Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen des Planjahres 2027 laut Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 5,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine außerordentlichen Aufwendungen ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 6,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine gesondert ausgewiesenen außerordentlichen Erträge vorhanden."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "GuV!D18",
+          "sign": 1
+        }
+      ],
+      "reason": "Jahresüberschuss wird direkt aus der GuV-Zeile GuV!D18 übernommen."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "GuV!D17",
+          "sign": 1
+        }
+      ],
+      "reason": "Steuern vom Einkommen und vom Ertrag entsprechen der Zeile GuV!D17."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 2,
+      "cells": [
+        {
+          "id": "GuV!D13",
+          "sign": 1
+        }
+      ],
+      "reason": "Zinsen und ähnliche Aufwendungen entsprechen der Zeile GuV!D13."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 3,
+      "cells": [
+        {
+          "id": "GuV!D12",
+          "sign": 1
+        }
+      ],
+      "reason": "Sonstige Zinsen und ähnliche Erträge entsprechen der Zeile GuV!D12."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 4,
+      "cells": [
+        {
+          "id": "GuV!D9",
+          "sign": 1
+        }
+      ],
+      "reason": "Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen entsprechen der Zeile GuV!D9."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 5,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine außerordentlichen Aufwendungen ausgewiesen."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 6,
+      "cells": [],
+      "reason": "Im Wirtschaftsplan sind keine außerordentlichen Erträge ausgewiesen."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "numerator",
+      "index": 7,
+      "cells": [
+        {
+          "id": "GuV!D17",
+          "sign": 1
+        }
+      ],
+      "reason": "Ertragsteuern entsprechen der Zeile GuV!D17."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "GuV!D13",
+          "sign": 1
+        },
+        {
+          "id": "GuV!D14",
+          "sign": -1
+        }
+      ],
+      "reason": "Zinsaufwand für Finanzverbindlichkeiten berechnet sich aus den Zinsen und ähnlichen Aufwendungen (GuV!D13) abzüglich der Aufzinsung von Pensionsrückstellungen (GuV!D14)."
+    },
+    {
+      "covenant": "Schuldendienstdeckungsgrad",
+      "side": "denominator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Finanzierung!D5",
+          "sign": 1
+        },
+        {
+          "id": "Finanzierung!D6",
+          "sign": 1
+        },
+        {
+          "id": "Finanzierung!D7",
+          "sign": 1
+        },
+        {
+          "id": "Finanzierung!D8",
+          "sign": 1
+        },
+        {
+          "id": "Finanzierung!D9",
+          "sign": 1
+        },
+        {
+          "id": "Finanzierung!D13",
+          "sign": 1
+        }
+      ],
+      "reason": "Planmäßige Tilgungsleistungen aller Finanzverbindlichkeiten aus dem Darlehensspiegel unter Ausklammerung von Sondertilgungen."
+    }
+  ]
+}

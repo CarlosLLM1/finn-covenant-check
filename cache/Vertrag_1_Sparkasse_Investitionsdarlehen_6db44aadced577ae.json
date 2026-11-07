@@ -1,0 +1,5 @@
+{
+  "has_covenants": false,
+  "reason_if_none": "Der Vertrag enthält keine Financial Covenants (Verpflichtungen zur fortlaufenden Einhaltung bestimmter Finanzkennzahlen). Kennzahlen werden lediglich in der Präambel auf Seite 1 als historische Ausgangslage bzw. Kreditentscheidungsgrundlage erwähnt: „Grundlage der Kreditentscheidung der Sparkasse sind die festgestellten Jahresabschlüsse der Kreditnehmerin für die Geschäftsjahre 2018 und 2019, der Wirtschaftsplan 2021 sowie die Investitionsplanung 2021 bis 2025. Zum 31. Dezember 2019 wies die Kreditnehmerin eine bilanzielle Eigenkapitalquote von 28,4 % und einen dynamischen Verschuldungsgrad (Nettofinanzverbindlichkeiten zu EBITDA) von 2,9 aus.“ Im operativen Vertragstext (§§ 1–20) sowie in den Anlagen finden sich weder Mindest- noch Höchstgrenzen für Finanzkennzahlen.",
+  "covenants": []
+}

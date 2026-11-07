@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "covenant": "Eigenkapitalquote",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Planbilanz!D20",
+          "sign": 1
+        }
+      ],
+      "reason": "Das bilanzielle Eigenkapital gemäß § 266 Abs. 3 Buchst. A HGB wird in der Planbilanz durch die Zeile 'A. Eigenkapital gesamt' repräsentiert."
+    },
+    {
+      "covenant": "Eigenkapitalquote",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Planbilanz!D13",
+          "sign": 1
+        }
+      ],
+      "reason": "Die Bilanzsumme (Summe der Aktiva) entspricht der Zeile 'Summe Aktiva' in der Planbilanz."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Planbilanz!D23",
+          "sign": 1
+        }
+      ],
+      "reason": "Verbindlichkeiten aus aufgenommenen Darlehen und Krediten entsprechen der Bilanzzeile 'D. Verbindlichkeiten gegenüber Kreditinstituten'. Nachrangige Gesellschafterdarlehen sind dort nicht enthalten, sondern in D24 separat ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 1,
+      "cells": [],
+      "reason": "Verbindlichkeiten aus Anleihen, Schuldverschreibungen oder Schuldscheindarlehen sind im vorgelegten Wirtschaftsplan nicht als eigene Position enthalten."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 2,
+      "cells": [],
+      "reason": "Verbindlichkeiten aus Finanzierungsleasingverträgen sind im Wirtschaftsplan nicht ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 3,
+      "cells": [],
+      "reason": "Verbindlichkeiten aus Forderungsverkäufen mit Rückgriff existieren im Wirtschaftsplan nicht."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 4,
+      "cells": [],
+      "reason": "Verbindlichkeiten aus sonstigen kreditähnlichen Geschäften sind im Wirtschaftsplan nicht vorhanden."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "numerator",
+      "index": 5,
+      "cells": [
+        {
+          "id": "Planbilanz!D11",
+          "sign": 1
+        }
+      ],
+      "reason": "Die frei verfügbaren liquiden Mittel entsprechen der Zeile 'Kassenbestand, Guthaben bei Kreditinstituten' in der Planbilanz."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 0,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E18",
+          "sign": 1
+        }
+      ],
+      "reason": "Der Jahresüberschuss ist die Zeile '13. Jahresüberschuss' im Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 1,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E17",
+          "sign": 1
+        }
+      ],
+      "reason": "Steuern vom Einkommen und vom Ertrag entsprechen der Zeile '12. Ertragsteuern' im Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 2,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E14",
+          "sign": 1
+        }
+      ],
+      "reason": "Zinsen und ähnliche Aufwendungen entsprechen der Zeile '10. Zinsaufwendungen'. Da der Vertrag zur Aufzinsung von Rückstellungen schweigt, erfolgt kein Abzug der Aufzinsungszeile."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 3,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E13",
+          "sign": 1
+        }
+      ],
+      "reason": "Sonstige Zinsen und ähnliche Erträge entsprechen der Zeile '9. Zinserträge' im Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 4,
+      "cells": [
+        {
+          "id": "Erfolgsplan!E10",
+          "sign": 1
+        }
+      ],
+      "reason": "Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen entsprechen exakt der Zeile '6. Abschreibungen auf immaterielle Vermögensgegenstände und Sachanlagen' im Erfolgsplan."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 5,
+      "cells": [],
+      "reason": "Außerordentliche Aufwendungen sind im Erfolgsplan nicht gesondert ausgewiesen."
+    },
+    {
+      "covenant": "Dynamischer Verschuldungsgrad",
+      "side": "denominator",
+      "index": 6,
+      "cells": [],
+      "reason": "Außerordentliche Erträge im Sinne von § 285 Nr. 31 HGB sind im Erfolgsplan nicht gesondert vorhanden."
+    }
+  ]
+}
