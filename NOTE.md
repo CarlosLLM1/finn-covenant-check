@@ -3,7 +3,7 @@
 ## Assumptions
 - Check on Plan 2027, test date 31.12.2027, values in T€. If an email asks for another year, Finn checks that
   year; otherwise it takes the year from the file name or the plan columns.
-- On plan figures, a breach is an early warning, not a default (contracts 2–4 say so); the reply quotes this.
+- On plan figures, a breach is an early warning, not a default (contracts 2–4 say so); the reply states this.
 - Each contract is applied literally: contract 3 counts the subordinated shareholder loan in debt service
   ("regardless of Rangrücktritt") and excludes the Sondertilgung and the Aufzinsung; contract 4 excludes the
   shareholder loan from debt and Sonderposten from equity. Rounding only where the contract has a rule
