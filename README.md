@@ -113,18 +113,6 @@ email ──► mailer.py    read unread mail (IMAP), save the .xlsx, ignore own
   inconsistent, corrupt.
 - **Plan year**: from the email, else from the file name, else from the plan columns in the file.
 
-## Tests (no internet, no API key)
-
-```powershell
-python -m tests.test_calc            # the 4 covenants vs. the hand calculation, trap values must not appear
-python -m tests.test_pipeline        # whole pipeline with a fake AI, incl. the reply email
-python -m tests.test_plan_variants   # 6 differently built Excel files: same results or clear refusal
-python -m tests.test_intake          # email understanding, prompt injection, fallback without AI
-```
-
-Test files in `tests/data/`: a plan with a different layout, one with a **breached covenant**
-(`Wirtschaftsplan_2027_Covenant_verletzt.xlsx`), and five broken files. They can also be sent to Finn by email.
-
 ## Known limitations
 
 - Only German-language plans and contracts (the sheet-role words are German).
