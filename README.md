@@ -118,7 +118,5 @@ email ──► mailer.py    read unread mail (IMAP), save the .xlsx, ignore own
 - Only German-language plans and contracts (the sheet-role words are German).
 - Years as columns, not rows; contracts as text PDFs (no OCR for scans).
 - Excel files must have been saved by Excel (formulas need their saved values).
-- The buffer ("how far may it get worse") changes one side of the ratio and keeps the other fixed.
-- Before a breach is sent to a bank, a human should approve it; a new plan layout's mapping should be checked once.
 
 More detail: Assumptions and decisions: `NOTE.md`. Time spent: `TIMELOG.md`.
