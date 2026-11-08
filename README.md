@@ -7,7 +7,7 @@ and replies in the same thread with the result, the calculation and the source o
 > **Core rule: the AI reads, maps and writes. Code calculates, checks and decides.**
 > Every ratio is computed in `finn/calc.py`. The AI never sees a plan value.
 
-## Result for Plan 2027 (test date 31.12.2027)
+## Result for Plan 2027 
 
 | Contract | Covenant | Value | Limit | Headroom | Status |
 |---|---|---|---|---|---|
